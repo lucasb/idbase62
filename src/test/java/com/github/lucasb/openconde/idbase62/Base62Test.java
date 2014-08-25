@@ -1,8 +1,10 @@
-package com.github.openconde.idbase62;
+package com.github.lucasb.openconde.idbase62;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+
+import com.github.lucasb.openconde.idbase62.Base62;
 
 public class Base62Test {
 

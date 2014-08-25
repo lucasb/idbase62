@@ -1,4 +1,4 @@
-package com.github.openconde.idbase62;
+package com.github.lucasb.openconde.idbase62;
 
 /**
  * 
