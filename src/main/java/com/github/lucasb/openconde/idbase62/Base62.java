@@ -19,13 +19,6 @@ public class Base62 {
 
 	/**
 	 * 
-	 * Initializes is private because the every method this class is static.
-	 *  
-	 */
-	private Base62() {}
-
-	/**
-	 * 
 	 * Convert a value from decimal to base 62.
 	 * 
 	 * @param decimal Long with decimal value to convert.
