@@ -29,8 +29,7 @@ public class Identification implements Serializable {
      * 
      * Get before Identification to current object.
      * 
-     * @param value
-     *            String to start this object.
+     * @param value String to start this object.
      * @return Identification object.
      * @throws RuntimeException.
      * 

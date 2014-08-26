@@ -46,8 +46,7 @@ public class Base62 {
      * 
      * Convert a value from base 62 to decimal.
      * 
-     * @param value
-     *            String with base 62 value to convert.
+     * @param value String with base 62 value to convert.
      * @return a long with decimal value.
      * 
      */
@@ -66,10 +65,8 @@ public class Base62 {
      * 
      * Plus two base 62 values.
      * 
-     * @param value
-     *            String with base 62 value.
-     * @param value2
-     *            String with base 62 value.
+     * @param value String with base 62 value.
+     * @param value2 String with base 62 value.
      * @return a string with result base 62 value.
      * 
      */
@@ -81,10 +78,8 @@ public class Base62 {
      * 
      * Subtract two base 62 values, first value to second.
      * 
-     * @param value
-     *            String with base 62 value.
-     * @param value2
-     *            String with base 62 value.
+     * @param value String with base 62 value.
+     * @param value2 String with base 62 value.
      * @return a long with decimal value.
      * 
      */
@@ -96,8 +91,7 @@ public class Base62 {
      * 
      * Valid if the value is base 62 type or not.
      * 
-     * @param value
-     *            String with base 62 value.
+     * @param value String with base 62 value.
      * @return a boolean with true if and only if the value is valid.
      * 
      */
