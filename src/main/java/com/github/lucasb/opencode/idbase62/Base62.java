@@ -22,8 +22,7 @@ public class Base62 {
      * 
      * Convert a value from decimal to base 62.
      * 
-     * @param decimal
-     *            Long with decimal value to convert.
+     * @param decimal Long with decimal value to convert.
      * @return a string with base 62 value.
      * 
      */
