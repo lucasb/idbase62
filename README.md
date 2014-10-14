@@ -5,6 +5,11 @@ Project to generate sequential identification with base 62.
 
 This lib helps generate short identifications to use in friendly URLs. For building IDs, it is using Base 62 that is all ASCII letters (upper and lower case) [a-z A-Z] and numbers [0-9].
 
+<pre>
+  ID decimal: 1413324470488
+  <b>ID Base62:  ySHP1FC</b>
+</pre>
+
 Using as ID in Entity
 -----
 You can use it like a type in your Java Object to get new IDs <code>private Identification id;</code>. 
