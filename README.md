@@ -1,4 +1,22 @@
-idbase62
+ID Base62
 ========
 
-Project to generate sequentially identification with base 62.
+Project to generate sequential identification with base 62.
+
+This lib helps generate short identifications to use in friendly URLs. For building IDs, it is using Base 62 that is all ASCII letters (upper and lower case) [a-z A-Z] and numbers [0-9].
+
+Using as ID in Entity
+-----
+You can use it like a type in your Java Object to get new IDs <code>private Identification id;</code>. 
+- <code>next()</code> method allows you to get next one in sequence;
+- <code>before()</code> method allows you to get before one in sequence;
+- <code>equals()</code> method to test if to values is equals.
+
+Calculating with Base 62
+-----
+The Base62 class has methods to calculate Base62 elements and convert from/to Base10.
+- <code>fromDecimal()</code> convert from decimal to Base62;
+- <code>toDecimal()</code> convert from Base62 to decimal;
+- <code>isValid()</code> verify if value is a valid Base62 element;
+- <code>plus()</code> sum two Base62 elements;
+- <code>minus()</code> subtract two Base62 elements.
