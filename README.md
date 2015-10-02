@@ -2,6 +2,7 @@ ID Base62
 ========
 
 [![Build Status](https://travis-ci.org/lucasb/idbase62.svg?branch=master)](https://travis-ci.org/lucasb/idbase62)
+[![Coverage Status](https://coveralls.io/repos/lucasb/idbase62/badge.svg?branch=master&service=github)](https://coveralls.io/github/lucasb/idbase62?branch=master)
 
 Project to generate sequential identification with base 62.
 
