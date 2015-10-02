@@ -4,7 +4,7 @@ jdk:
   - oraclejdk8
   
 script:
-  mvn clean install
+  - mvn clean install
 
 after_success:
-  - mvn clean test jacoco:report coveralls:report
+  - mvn cobertura:cobertura coveralls:report
