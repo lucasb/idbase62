@@ -1,6 +1,8 @@
 ID Base62
 ========
 
+[![Build Status](https://travis-ci.org/lucasb/idbase62.svg?branch=master)](https://travis-ci.org/lucasb/idbase62)
+
 Project to generate sequential identification with base 62.
 
 This lib helps generate short identifications to use in friendly URLs. For building IDs, it is using Base 62 that is all ASCII letters (upper and lower case) [a-z A-Z] and numbers [0-9].
@@ -12,7 +14,7 @@ This lib helps generate short identifications to use in friendly URLs. For build
 
 Using as ID in Entity
 -----
-You can use it like a type in your Java Object to get new IDs <code>private Identification id;</code>. 
+You can use it like a type in your Java Object to get new IDs <code>private Identification id;</code>.
 - <code>next()</code> method allows you to get next one in sequence;
 - <code>before()</code> method allows you to get before one in sequence;
 - <code>equals()</code> method to test if to values is equals.
