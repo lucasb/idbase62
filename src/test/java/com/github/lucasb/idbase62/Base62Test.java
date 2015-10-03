@@ -1,10 +1,10 @@
-package com.github.lucasb.opencode.idbase62;
+package com.github.lucasb.idbase62;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import com.github.lucasb.opencode.idbase62.Base62;
+import com.github.lucasb.idbase62.Base62;
 
 public class Base62Test {
 

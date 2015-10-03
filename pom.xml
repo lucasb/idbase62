@@ -4,11 +4,11 @@
                       http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.github.openconde.idbase62</groupId>
+  <groupId>com.github.lucasb.idbase62</groupId>
   <artifactId>idbase62</artifactId>
   <version>1.0.0</version>
   <name>idbase62</name>
-  
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
