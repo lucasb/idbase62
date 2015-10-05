@@ -20,6 +20,13 @@ public class Base62Test {
         n += new String(Base62.ELEMENTS).indexOf(chars[4]) * (int) Math.pow(62, 0);
         assertEquals(str, Base62.fromDecimal(n));
     }
+    
+    @Test
+    public void testFromDecimalZero() throws Exception {
+        long n = 0;
+        String str = String.valueOf(Base62.ELEMENTS[(int) n]);
+        assertEquals(str, Base62.fromDecimal(n));
+    }
 
     @Test
     public void testToDecimal() throws Exception {
@@ -49,6 +56,12 @@ public class Base62Test {
     @Test
     public void testMinus() throws Exception {
         assertEquals("e7Pr", Base62.minus("fdtA", "54t"));
+    }
+    
+    @Test
+    public void testInstanceClass() throws Exception {
+        Base62 base62 = new Base62();
+        assertEquals(base62.getClass(), Base62.class);
     }
 
 }

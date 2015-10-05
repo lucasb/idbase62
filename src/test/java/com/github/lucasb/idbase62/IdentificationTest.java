@@ -2,11 +2,15 @@ package com.github.lucasb.idbase62;
 
 import static org.junit.Assert.assertEquals;
 
+import org.junit.Rule;
 import org.junit.Test;
-
-import com.github.lucasb.idbase62.Identification;
+import org.junit.rules.ExpectedException;
 
 public class IdentificationTest {
+    
+    @Rule
+    public ExpectedException expectedEx = ExpectedException.none();
+    
 
     @Test
     public void testIdentification() throws Exception {
@@ -19,6 +23,13 @@ public class IdentificationTest {
         String value = "wQ7r";
         Identification id = new Identification(value);
         assertEquals(value, id.toString());
+    }
+    
+    @Test(expected = RuntimeException.class)
+    public void testIdentificationException() throws Exception {
+        String value = "z_89";
+        new Identification(value);
+        expectedEx.expectMessage("Cannot instance class because the value is not valid.");
     }
 
     @Test
